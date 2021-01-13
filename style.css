@@ -1,125 +1,123 @@
-#header {
-    background-color:#006600;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-#header p {
-    font-size:1rem;
+body {
+    background-image: url("images/moroccan-flower.png");
 }
 
 /* Navigation Bar */
-
-nav {
-    border-bottom: 2px solid #660000;
+#navbar {
+    border-bottom: 1px solid #006600;
+    background-color: #fafafa;
 }
 
-.navbar-brand {
-    width:60%;
+#navbar a:hover {
+    font-weight: bolder;
 }
 
-.nav-link {
-    color:#006600 !important;
+#covidNav {
+    text-decoration: underline;
 }
 
-.nav-link:hover {
-    text-decoration:none;
-    font-weight:bold;
-    color: #660000 !important;
+#fbIcon {
+    width: 30px;
 }
 
 /* Carousel */
-
-#slides {
-    margin-top:2rem;
-    margin-bottom:2rem;
+.carousel-caption {
+    border: 1px solid white;
+    background-color: rgba(0,102,0, 0.65);
+    color: #fafafa;
+    height: 6rem;
 }
 
-.carousel-item, .carousel-item a{
-    color:#006600 !important;
-}
-
-
-.carousel-item .display-4 {
-    font-size:2rem !important;
+.carousel-caption h5 {
+    font-size: 1rem;
 }
 
 .carousel-item img {
-    height:30rem;
-    border: 2px solid #660000;
     margin:auto;
-    background-image:url("img/moroccan-flower.png") !important;
+    width:100%;
 }
 
-#backArrow, #forwardArrow {
-    color: #660000;
-    font-size:2rem;
-}
 
 /* Cards */
+.card {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card a{
+    color: #006600;
+}
+
 .card-header {
-    border: 2px solid #660000;
+    background-color: #fafafa !important;
 }
 
-.card-header button {
+.card-body a{
+    font-size: 1rem;
+}
+
+.card-header h5 {
+    font-size: 1rem;
+}
+
+.card-header h5, .navbar a{
+    color: #006600 !important;
+} 
+
+.card-header .btn-link:hover {
+    background-color:rgba(0,102,0) !important;
+    text-decoration: none;
+}
+
+/* If card header is hovered, applies css to h5 element inside it */
+.card-header .btn-link:hover > h5{ 
+    color: white !important;
+}
+
+#email {
     color: #006600;
 }
 
-.card-header button:hover {
-    color:white;
-    text-decoration:none;
-    background-color:#660000;
-}
-
-.card-header a {
-    color: #006600;
-}
-
-.card-body {
-    background-color:#006600;
-}
-
-.card-body a:hover {
-    color:black;
-    text-decoration:none;
-}
-
-#covidCollapse {
-    color:#006600 !important;
-}
-
-#covidCollapse a {
-    font-weight:normal;
-}
-
-/* Contact */
-.jumbotron {
-    background-color:#006600 !important;
-}
-
-.jumbotron .display-4 {
-    font-size:2.5rem;
-}
-
-#contact {
-    padding:30px;
-}
-
-#fb-plugin {
-    border: 2px solid #660000;
-    background-image:url("img/moroccan-flower.png")
+/* Facebook Plugin */
+.fb-page {
+    text-align: center;
 }
 
 .footer-copyright {
-    background-color:#006600;
-    border-top: 1px solid #660000;
+    background-color: #006600;
+    color: white;
+    opacity: 80%;
 }
 
-@media (min-width: 768px) {
-    #carouselIndicators, #slides {
-        width:800px;
-    }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-    .carousel-item img {
-        width: auto !important;
-        height:45rem;
-    }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.carousel-item img {
+    width:auto;
+    height:40em;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+

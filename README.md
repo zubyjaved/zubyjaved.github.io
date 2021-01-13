@@ -1,2 +1,4 @@
-# appna-website
-Official website for APPNA's Northern California Chapter. 
+# appnaca.org
+Main website for APPNA's Northern California Chapter.
+
+Created using Bootstrap 4. 
