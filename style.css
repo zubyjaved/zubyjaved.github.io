@@ -1,6 +1,25 @@
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
 .btn-primary {
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+#title {
+    font-size: 2.5rem;
+    color: #2991ff ;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    color: #2991ff !important;
+    padding-right: 2rem;
 }
 
 .btn-txt {
@@ -28,8 +47,15 @@
     position: absolute;
 }
 
+#slides {
+    border: 1px solid #2991ff;
+    margin-top: 2rem;
+}
+
 .header-txt {
     font-size: 2rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .description-txt {
@@ -41,7 +67,7 @@
     font-size: 2.5rem;
 }
 
-footer {
+.footer-copyright {
+    margin-top: 0;
     border-top: 1px solid #2991ff;
-
 }

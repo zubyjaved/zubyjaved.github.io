@@ -5,10 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Zuby Javed">
         <meta name="description" content="Main website to download iCare desktop app">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <title>iCare Timer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body id="body">
         <nav class="navbar navbar-expand-md navbar-expand-lg sticky-top bg-light">
@@ -17,6 +20,7 @@
                 <a class="navbar-brand" href="#body">
                     <img src="img/icon-100px.png" alt="iCare Logo"/>
                 </a>
+                <h1 class="display-4" id="title">iCare</h1>
                 <!-- Collapsible Navbar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation bar">
                     <span class="navbar-toggler-icon">
@@ -34,7 +38,7 @@
         <!-- Sliding Text & Images-->
         <div class="container-fluid" id="downloadBgImg"></div>
         <div class="container text-center py-5" id="downloadText">
-              <h1 class="display-5">Welcome to iCare</h1>
+              <h1 class="display-5 hea">Welcome to iCare</h1>
               <p class="display-4 description-txt">A Smart Countdown Timer</p>
               <p class="display-5">Download for Windows & MacOS</p>
                 <button class="btn-primary"><i class="fa fa-windows"></i> <span class="btn-txt">iCare for Windows</span></button>
@@ -103,17 +107,17 @@
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                        <i id="backArrow" class="fas fa-arrow-left"></i>
+                        <i id="backArrow" class="fa fa-arrow-left"></i>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                        <i id="forwardArrow" class="fas fa-arrow-right"></i>
+                        <i id="forwardArrow" class="fa fa-arrow-right"></i>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
             </div>
         </div>
-        <div>
+        <div class="jumbotron jumbotron-fluid">
             <h1 class="display-4 text-center description-txt">
                 <i class="fa fa-info-circle"></i>
                 Running into issues? Check out our 
