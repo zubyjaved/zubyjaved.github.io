@@ -1,23 +1,26 @@
-#backArrow, #forwardArrow {
-    color: #2991ff;
-    font-size: 3rem;;
+.btn-primary {
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.btn-txt {
+    font-size: 1rem;
 }
 
 #downloadBgImg {
-    height:800px;
+    height: 987px;
     background-image: url("img/computer-987-h.jpg");
     /* Add the blur effect */
     filter: blur(4px);
-    -webkit-filter: blur(4px);
+    -webkit-filter: blur(4px); 
 }
-
 
 #downloadText { 
     color: white;
     font-weight: bolder;
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #f1f1f1;
+    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    border: 1px solid #f1f1f1;
     width: 30%;
     top: 50%;
     left: 50%;
@@ -25,14 +28,20 @@
     position: absolute;
 }
 
-#welcomeTxt {
-    font-size: 3rem;
+.header-txt {
+    font-size: 2rem !important;
 }
 
-#cdTimerTxt {
-    font-size: 1.5rem;
+.description-txt {
+    font-size: 1.5rem !important;
 }
 
-#supportRefTxt {
-    font-size: 1.5rem;
+#backArrow, #forwardArrow {
+    color: #2991ff;
+    font-size: 2.5rem;
+}
+
+footer {
+    border-top: 1px solid #2991ff;
+
 }

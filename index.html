@@ -33,23 +33,22 @@
         </nav>
         <!-- Sliding Text & Images-->
         <div class="container-fluid" id="downloadBgImg"></div>
-        <div class="container text-center" id="downloadText">
+        <div class="container text-center py-5" id="downloadText">
               <h1 class="display-5">Welcome to iCare</h1>
-              <p class="display-4" id="cdTimerTxt" >A Smart Countdown Timer</p>
+              <p class="display-4 description-txt">A Smart Countdown Timer</p>
               <p class="display-5">Download for Windows & MacOS</p>
-              <button class="btn-primary"><i class="fa fa-windows"></i> iCare for Windows</button>
-              <button class="btn-primary"><i class="fa fa-apple"></i> iCare for MacOS</button>
-            </div>
-        <!-- <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center">
-              <h1 class="display-4" id="welcomeTxt">Welcome to iCare</h1>
-              <p class="lead">A Smart Countdown Timer available for Windows and Mac</p>
-              <p>Screen usage is at all time high and eye strain is becoming a common issue. iCare offers a solution.</p>
-              <a class="btn btn-primary" href="download.html" role="button"><i class="fa fa-download"></i>Download</a>
-            </div>
-        </div> -->
+                <button class="btn-primary"><i class="fa fa-windows"></i> <span class="btn-txt">iCare for Windows</span></button>
+                <button class="btn-primary"><i class="fa fa-apple"></i> <span class="btn-txt">iCare for MacOS</span></button>
+              </div>
+              </div>
         <!-- iCare's Features-->
         <div class="container">
+            <h1 class="display-5 text-center header-txt py-3">How it works</h1>
+                <!--20-20-20 Rule-->
+                <div class="text-center">
+                    <p class="lead">iCare prevents eye strain by following the 20-20-20 rule</p>
+                    <p class="lead">When the timer ends, users are notified to look at something 20 feet away for a total of 20 seconds</p>
+                </div>
             <div class="row">
                 <div class="col-md-6">
                   <div class="card">
@@ -68,92 +67,54 @@
                     </div>
                   </div>
               </div>
-            <!--20-20-20 Rule-->
-            <div class="text-center">
-                <p class="lead">iCare prevents eye strain by following the 20-20-20 rule</p>
-                <p class="lead">When the timer ends, users are notified to look at something 20 feet away for a total of 20 seconds</p>
-            </div>
         </div>
         <!-- iCare's Features-->
 
         <!-- Sliding Text & Images-->
-        <div id="slides" class="container-fluid">
-            <h1 class="display-5 text-center">Login for additional features</h1>
-            <div id="carouselIndicators" class="carousel slide text-center" data-ride="carousel" id="textCarousel">
+        <div id="slides" class="container">
+            <div class="carousel slide text-center"id="carouselIndicators"  data-ride="carousel" id="textCarousel">
+                <h1 class="display-5 text-center header-txt py-3">Login for additional features</h1>
                 <div class="carousel-inner text-center">
                     <div class="carousel-item active">
-                        <div class="container">
-                            <!-- Additional features-->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Track app & timer usage</h5>
-                                        <img src="img/weekly-usage-500px.png">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card">
-                                        <div class="card-body">
-                                        <h5 class="card-title text-center">Choose apps to block the timer from running.</h5>
-                                        <p></p>
-                                        <img src="img/blockers-500px.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="lead">If you login, you can view your timer usage and even your individual app usage. Data tracking can be disabled in the settings menu.</p>
-                                <p class="lead"> You wouldn't want a full-screen overlay if you're in an important meeting or playing an online game. 
-                                    Thus, you can even add apps to a list of blockers that will prevent the timer from running.</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Track app & timer usage</h5>
+                                <img src="img/weekly-usage-500px.png">
+                                <p class="lead">Tracking data usage can be disabled in Preferences.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="container">
-                            <!-- Additional features-->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Upload custom notification sounds.</h5>
-                                        <img src="img/sound-notifs-500px.png">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card">
-                                        <div class="card-body">
-                                        <h5 class="card-title text-center">Choose apps to block the timer from running.</h5>
-                                        <p></p>
-                                        <img src="img/blockers-500px.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="lead">
-                                    When the timer ends, a sound notification can be enabled in settings.
-                                    As a guest, you can choose from a preset list of custom sounds.
-                                    If you login, you are able upload your own sounds.
-                                </p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Choose apps to block the timer from running.</h5>
+                                <img src="img/blockers-500px.png">
+                                <p class="lead">In a Zoom Meeting? Playing a ranked game? The timer won't run. </p>
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Upload custom notification sounds.</h5>
+                                <img src="img/sound-notifs-500px.png">
+                                <p class="lead">You can enable sound notifications in Preferences.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                        <i id="backArrow" class="fas fa-arrow-left"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                        <i id="forwardArrow" class="fas fa-arrow-right"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                    <i id="backArrow" class="fas fa-arrow-left"></i>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                    <i id="forwardArrow" class="fas fa-arrow-right"></i>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
-        <div class="container container-fluid">
-            <h1 class="display-4 text-center" id="supportRefTxt">
+        <div>
+            <h1 class="display-4 text-center description-txt">
                 <i class="fa fa-info-circle"></i>
                 Running into issues? Check out our 
                 <a class="link-info" href="support.html">support page</a>
